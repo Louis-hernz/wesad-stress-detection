@@ -13,21 +13,20 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an **enhanced machine learning pipeline** for stress detection using only **wrist-worn device data** (Empatica E4) from the WESAD dataset. We achieve **~88% accuracy** (matching/exceeding the paper baseline) using traditional ML with enhanced features, and provide a foundation for deep learning approaches.
 
 ### Key Features
 
-- ✅ **Enhanced Feature Engineering**: 70+ features (paper baseline + novel additions)
-- ✅ **Multiple Models**: Decision Tree, Random Forest, LDA, kNN, XGBoost, LightGBM
-- ✅ **Rigorous Evaluation**: LOSO cross-validation (subject-independent)
-- ✅ **Production-Ready**: Robust error handling, comprehensive logging
-- ✅ **Fully Documented**: Step-by-step guides, troubleshooting, examples
+- **Enhanced Feature Engineering**: 70+ features (paper baseline + novel additions)
+- **Multiple Models**: Decision Tree, Random Forest, LDA, kNN, XGBoost, LightGBM
+- **Rigorous Evaluation**: LOSO cross-validation (subject-independent)
+- **Production-Ready**: Robust error handling, comprehensive logging
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Accuracy | F1-Score | AUC |
 |-------|----------|----------|-----|
@@ -43,7 +42,7 @@ This project implements an **enhanced machine learning pipeline** for stress det
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -90,7 +89,7 @@ Results saved to `outputs/`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wesad-stress-detection/
@@ -123,7 +122,7 @@ wesad-stress-detection/
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### Dataset
 
@@ -160,7 +159,7 @@ wesad-stress-detection/
 
 ---
 
-## 🎓 Technical Details
+## Technical Details
 
 ### Window Configuration
 
@@ -184,7 +183,7 @@ All models use scikit-learn defaults with adjustments:
 
 ---
 
-## 📈 Reproducibility
+## Reproducibility
 
 To reproduce our results:
 
@@ -208,7 +207,7 @@ python ml_pipeline.py
 
 ---
 
-## 🔧 Customization
+## Customization
 
 ### Change Model Parameters
 
@@ -237,7 +236,7 @@ WINDOW_SIZE_PHYSIO = 30  # 30 seconds instead of 60
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -257,7 +256,7 @@ See `docs/SETUP_WINDOWS.md` for detailed troubleshooting.
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this code, please cite:
 
@@ -281,33 +280,6 @@ If you use this code, please cite:
   url = {https://github.com/yourusername/wesad-stress-detection}
 }
 ```
-
----
-
-## 🚀 Future Work
-
-### Planned Improvements
-
-- [ ] **Deep Learning Models**
-  - 1D CNN for raw signals
-  - LSTM/GRU for temporal dependencies
-  - Transformer with attention
-  - Target: 92-95% accuracy
-
-- [ ] **Personalization**
-  - Few-shot learning for new users
-  - Meta-learning (MAML)
-  - Transfer learning
-
-- [ ] **Real-Time Deployment**
-  - Optimize inference speed
-  - Mobile app integration
-  - Edge device deployment
-
-- [ ] **Explainability**
-  - SHAP values
-  - Attention visualization
-  - Feature importance analysis
 
 ---
 
@@ -345,26 +317,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **WESAD Dataset**: Schmidt et al., Robert Bosch GmbH, University of Siegen
-- **Anthropic Claude**: Code assistance and documentation
 - **scikit-learn, XGBoost, LightGBM**: ML frameworks
 
 ---
 
 ## 📧 Contact
 
-**Author**: Your Name  
-**Email**: your.email@example.com  
-**GitHub**: [@yourusername](https://github.com/yourusername)
+**Author**: Louis Hernandez
+**Email**: Louis_h@mit.edu
+**GitHub**: [@Louis-hernz](https://github.com/Louis-hernz)
 
 ---
 
-## ⭐ Star History
+## Star History
 
 If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Built with ❤️ for stress detection research**
+**Built with <3 for stress detection research**
