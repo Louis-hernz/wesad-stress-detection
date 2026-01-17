@@ -1,6 +1,6 @@
 # WESAD Stress Detection - Enhanced ML Pipeline
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements an **enhanced machine learning pipeline** for stress detection using the WESAD (Wearable Stress and Affect Detection) dataset. We use only **wrist-worn device data** to classify binary stress states (Stress vs Non-Stress).
 
@@ -11,7 +11,7 @@ This project implements an **enhanced machine learning pipeline** for stress det
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 **WESAD Dataset:**
 - **15 subjects** (S2-S17, excluding S1)
@@ -29,7 +29,7 @@ This project implements an **enhanced machine learning pipeline** for stress det
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 wesad_stress_detection/
@@ -57,7 +57,7 @@ wesad_stress_detection/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Step 1: Download the WESAD Dataset
 
@@ -107,7 +107,7 @@ This will:
 
 ---
 
-## 🎯 Features Extracted
+## Features Extracted
 
 ### From Paper (Baseline Features):
 1. **ACC (19 features)**: Mean, std, integral, peak frequency for each axis + 3D magnitude
@@ -126,7 +126,7 @@ This will:
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 ### Baseline Models (from paper):
 1. **Decision Tree**
@@ -140,7 +140,7 @@ This will:
 
 ---
 
-## 📈 Expected Results
+## Expected Results
 
 **Paper Baseline (Wrist data):**
 - Binary classification: ~88% accuracy
@@ -153,7 +153,7 @@ This will:
 
 ---
 
-## 📊 Outputs
+## Outputs
 
 After running the pipeline, check `outputs/`:
 
@@ -166,7 +166,7 @@ After running the pipeline, check `outputs/`:
 
 ---
 
-## 🔬 Understanding the Code
+## Understanding the Code
 
 ### Key Components:
 
@@ -195,7 +195,7 @@ results = pipeline.run_all_models(features_dict, labels_dict)
 
 ---
 
-## 🎓 Next Steps (Deep Learning)
+## Next Steps (Deep Learning)
 
 Once we validate the ML baseline, we'll move to:
 
@@ -207,7 +207,7 @@ Once we validate the ML baseline, we'll move to:
 
 ---
 
-## 📝 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Subject file not found"
 - Ensure WESAD dataset is extracted to `wesad_data/`
@@ -227,7 +227,7 @@ Once we validate the ML baseline, we'll move to:
 
 ---
 
-## 📚 References
+## References
 
 **Original Paper:**
 Schmidt, P., Reiss, A., Duerichen, R., Marberger, C., & Van Laerhoven, K. (2018). 
@@ -238,7 +238,7 @@ ICMI '18, October 16–20, 2018, Boulder, CO, USA.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Suggestions for improvement:
 1. Feature selection using mutual information or SHAP
@@ -249,7 +249,7 @@ Suggestions for improvement:
 
 ---
 
-## 📧 Questions?
+## Questions?
 
 Feel free to ask about:
 - Feature extraction details
@@ -257,5 +257,3 @@ Feel free to ask about:
 - Deep learning next steps
 - Performance optimization
 - Real-time deployment
-
-**Let's build an accurate, interpretable stress detector!** 🚀
