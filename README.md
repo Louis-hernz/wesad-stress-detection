@@ -38,7 +38,7 @@ This project implements an **enhanced machine learning pipeline** for stress det
 | LightGBM | 89.2% | 88.1% | 0.925 |
 
 **Paper Baseline (Wrist data)**: ~88% accuracy  
-**Our Best**: 89.2% accuracy with LightGBM ✅
+**Our Best**: 89.2% accuracy with LightGBM 
 
 ---
 
@@ -283,7 +283,7 @@ If you use this code, please cite:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 
@@ -309,7 +309,7 @@ black *.py
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -324,7 +324,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Author**: Louis Hernandez
 **Email**: Louis_h@mit.edu
@@ -334,7 +334,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Star History
 
-If you find this project useful, please consider giving it a star! ⭐
+If you find this project useful, please consider giving it a star! 
 
 ---
 
