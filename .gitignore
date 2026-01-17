@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# WESAD DATASET - CRITICAL!
+# ================================
+# Exclude the entire dataset directory
+wesad_data/
+
+# Exclude all pickle files (dataset files)
+*.pkl
+
+# Exclude large data files
+*.mat
+*.zip
+*.h5
+*.hdf5
+
+# ================================
+# OUTPUTS - Only ignore large files
+# ================================
+# Keep small result files, ignore large ones
+outputs/model_comparison.png
+outputs/confusion_matrix*.png
+outputs/roc_curves.png
+outputs/detailed_results.txt
+
+# But keep the summary and README
+!outputs/results_summary.csv
+!outputs/feature_names.txt
+!outputs/README.md
+
+# ================================
+# COMMON IGNORES
+# ================================
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints
+*.pth
+*.ckpt
+models/checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
